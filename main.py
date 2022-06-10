@@ -176,7 +176,7 @@ def shell(message):
     run_command_and_notify(message, to_run, shell=True)
 
 @bot.message_handler(func=lambda message: message.text == '!SHUTDOWN')
-#@admins_only_handler  # WARNING: with this line commented out ANYONE can shut the bot down
+@admins_only_handler  # WARNING: with this line commented out ANYONE can shut the bot down
 def shutdown(message):
     print("Stopping due to '!SHUTDOWN' received", flush=True)
 
