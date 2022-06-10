@@ -1,5 +1,5 @@
-bot_token = '123456:ABCDEFGHI'  # Telegram bot token from @BotFather
-admins_ids = [123, 456]  # List of Telegram user identifiers (integers). Find via @myidbot
+bot_token = '5524167802:AAEPvQ6-JvdwiaIKppweHTYsCXrym7vVHBM'  # Telegram bot token from @BotFather
+admins_ids = [5455166957, 564796271]  # List of Telegram user identifiers (integers). Find via @myidbot
 
 # `quick_access_cmds` represents the keyboard that will be displayed as Telegram keyboard (for quick
 # access to frequently used commands).
